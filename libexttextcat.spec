@@ -1,6 +1,6 @@
 Name: libexttextcat
 Version: 3.4.1
-Release: 1%{?dist}
+Release: 3%{?dist}
 Summary: Text categorization library
 
 Group: System Environment/Libraries
@@ -76,6 +76,12 @@ make check
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.4.1-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.4.1-2
+- Mass rebuild 2013-12-27
+
 * Thu May 30 2013 David Tardon <dtardon@redhat.com> - 3.4.1-1
 - new release
 
